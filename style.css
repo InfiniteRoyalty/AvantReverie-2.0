@@ -42,16 +42,29 @@ img.maxfluid {
 
 /* Image Size */
 
+.autosize img {
+    max-width: 100%;
+    height: auto;
+    margin: 0px;
+}
+
+.aboutpic {
+    display: flex;
+    max-width: 100%;
+    height: fit-content;
+}
+
 .box img {
     max-width: 700px;
 }
 
 .pbox img {
-    max-width: 300px;
+    max-width: 100%;
     padding: 10px;
 }
 
 .pobox img {
+    max-width: 70%;
     max-width: 500px;
     padding: 10px;
 }
@@ -67,11 +80,16 @@ img.maxfluid {
     padding: 20px;
 }
 
-h1.about {
+.aboutt {
+    padding: 20px;
+    margin: 0px;
+}
+
+h1.aboutt {
     color: white;
 }
 
-p.about {
+p.aboutt {
     color: white;
 }
 
@@ -87,6 +105,11 @@ p.about {
 
 /* Commissions Page */
 
+img.commisions {
+    height: auto;
+    width: 100%;
+}
+
 .commisions {
     text-align: center;
     color: #FFFFFF;
@@ -98,6 +121,16 @@ p.about {
 
 p.com {
     max-width: 1000px;
+}
+
+.stitle {
+    text-decoration: underline;
+}
+
+.pend {
+    border-bottom: 5px solid #FFFFFF;
+    width: 100%;
+    padding-bottom: 20px;
 }
 
 /* Nav Responsive Design */
@@ -141,7 +174,7 @@ div.nav-container {
     transition: all 0.2s;
 }
 
-.nav-link::after {
+.navbar-nav::after {
     content: ' ';
     opacity: 1;
     height: 2px;
@@ -151,3 +184,5 @@ div.nav-container {
     bottom: 0;
     left: 0;
 }
+
+/* Responsive Design */
