@@ -185,4 +185,8 @@ div.nav-container {
     left: 0;
 }
 
-/* Responsive Design */
+/* Active Links */
+
+.active {
+    color: #d62976;
+}
