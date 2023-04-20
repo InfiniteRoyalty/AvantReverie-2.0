@@ -60,13 +60,14 @@ img.maxfluid {
 
 .pbox img {
     max-width: 100%;
-    padding: 10px;
+    padding: 0px;
 }
 
 .pobox img {
+    margin: 0px;
     max-width: 70%;
-    max-width: 500px;
-    padding: 10px;
+    max-width: 700px;
+    padding: 0px;
 }
 
 .art {
@@ -106,8 +107,11 @@ p.aboutt {
 /* Commissions Page */
 
 img.commisions {
+    margin: 30px;
+    padding: 0px;
     height: auto;
-    width: 100%;
+    width: 90%;
+    border: solid 10px#FFFFFF;
 }
 
 .commisions {
