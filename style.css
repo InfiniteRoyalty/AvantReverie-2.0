@@ -50,7 +50,8 @@ img.maxfluid {
 
 .aboutpic {
     display: flex;
-    height: fit-content;
+    height: auto;
+    max-width: 100%;
 }
 
 .box img {
