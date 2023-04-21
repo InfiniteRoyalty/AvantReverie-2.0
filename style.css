@@ -94,6 +94,14 @@ p.aboutt {
     color: white;
 }
 
+/* About Page Media Query */
+
+@media screen and (min-width: 1000px) {
+    .aboutpic {
+        max-width: fit-content;
+    }
+}
+
 /* Container Spacing */
 
 .container {
